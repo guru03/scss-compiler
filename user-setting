@@ -2,18 +2,18 @@
 "liveSassCompile.settings.formats": [{
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "src/assets/style"
+            "savePath": "src/assets/style/css"
         },
         {
             "extensionName": ".min.css",
             "format": "compressed",
-            "savePath": "src/assets/style"
+            "savePath": "src/assets/style/css"
         }
     ],
-    "liveSassCompile.settings.excludeList": false,
+    "liveSassCompile.settings.excludeList": null,
     "liveSassCompile.settings.includeItems": [
-        "/src/assets/scss/main.scss",
-        "/src/assets/scss/nesi-theme.scss"
+        "src/assets/style/scss/main.scss",
+        "src/assets/style/scss/nesi-theme.scss"
     ],
     "liveSassCompile.settings.generateMap": true,
     "liveSassCompile.settings.autoprefix": [
